@@ -29,13 +29,3 @@ ingredients['drinks'].each do |ingredient|
 end
 
 puts 'all done'
-
-puts 'delete all ingredients'
-
-Cocktail.delete_all
-
-puts 'add new cocktails'
-new_cocktail = Cocktail.new(name: 'Vodka Pomme')
-new_cocktail.save
-
-puts 'All done'
